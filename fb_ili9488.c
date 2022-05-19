@@ -34,7 +34,7 @@
 
 #define DRVNAME		"fb_ili9488"
 #define WIDTH		320
-#define HEIGHT		480
+#define HEIGHT		320
 
 /* Level 1 Commands (from the display Datasheet) */
 #define ILI9488_CMD_NOP                             0x00
@@ -136,7 +136,7 @@
 
 /*Communication Commands*/
 #define ILI9488_TFTWIDTH  320
-#define ILI9488_TFTHEIGHT 480
+#define ILI9488_TFTHEIGHT 320
 
 #define ILI9488_NOP     0x00
 #define ILI9488_SWRESET 0x01
